@@ -7,19 +7,14 @@
 }
 
 .commentMessages:hover {
+    transition: 0.15s;
     box-shadow: 0 0 10px gold;
-    margin: 0 0 20px 0;
-    animation-name: messageSlideLeft;
-    animation-timing-function: ease-in;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
+    margin: 10px 0 10px 0;
+    transform: translateX(-20px);
+    transition: 0.25s;
 }
 
-@keyframes messageSlideLeft {
-    100% {transform: translateX(-20px)}
-}
-
-.statusButtonMessages {
+.commentButtonMessages {
     margin: 0px;
     border: 3px solid blueviolet;
     background-color:blueviolet;
@@ -27,10 +22,13 @@
     color: white;
 }
 
-.statusButtonMessages:hover {
-    color: black;
-    background-color: rgb(189, 125, 249);
-    border: 3px solid rgb(189, 125, 249);
-    box-shadow: 0 0 20px magenta;
+.commentButtonMessages:hover {
+    background-color: blueviolet;
+    box-shadow: 0 -4px 0 rgb(255, 140, 0);
+    border-radius: 20px;
     transition: 0.25s;
+}
+
+.hiddenCommentButtons {
+    display: none;
 }

@@ -26,4 +26,6 @@ button:hover {
     background-color: magenta;
     color: white;
     cursor: pointer;
+    border-radius: 20px;
+    transition: 0.25s;
 }
