@@ -1,0 +1,50 @@
+#adventCalendarBackground {
+    background-image: linear-gradient( rgb(12, 0, 19), crimson, rgb(61, 0, 57));
+    height: 100%;
+    width: 100%;
+}
+
+h1:hover {
+    animation-name: adventCalendarh1;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+@keyframes adventCalendarh1 {
+    25% {text-shadow: 0 0 20px gold}
+    50% {text-shadow: 0 0 20px crimson}
+    75% {text-shadow: 0 0 20px lawngreen}
+    100% {text-shadow: 0 0 20px white}
+}
+
+div {
+    background-image: linear-gradient(to bottom right, rgb(255, 130, 130), rgb(238, 238, 46));
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-auto-flow: row;
+    box-shadow: 0 0 8px white;
+}
+
+div button {
+    padding: 10px, 10px, 10px, 10px;
+    margin: 5px;
+    border: 5px solid rgb(252, 102, 132);
+    /*border-image: url(https://wallpapers.com/images/thumbnail/candy-cane-red-pattern-utj8e7a2hjb9yebu.jpg) 50 round;*/
+    background-color: rgb(252, 102, 132);
+}
+
+.even-calendar {
+    border: 5px solid greenyellow;
+    background-color: greenyellow
+}
+
+div button:hover {
+    border: 5px solid crimson;
+    background-color: crimson;
+    transition-duration: 0.5s;
+}
+
+.even-calendar:hover {
+    border: 5px solid rgb(42, 70, 0);
+    background-color:rgb(42, 70, 0);
+}

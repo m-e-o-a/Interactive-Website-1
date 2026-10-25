@@ -1,3 +1,17 @@
-html {
-    background-image: linear-gradient(rgb(156, 12, 156), rgb(237, 151, 165), rgb(239, 165, 74))no-repeat;
+h1:hover {
+    animation-name: animationHubh1;
+    animation-duration: 3s;
+    animation-delay: 2s;
 }
+
+@keyframes animationHubh1 {
+    20% {text-shadow: 0 0 15px mediumvioletred;
+         color: yellow}
+    40% {text-shadow: 0 0 15px crimson;
+         color: mediumvioletred}
+    60% {text-shadow: 0 0 15px cornflowerblue;
+         color: mediumblue}
+    80% {text-shadow: 0 0 15px purple;
+         color: aqua;}
+    100% {text-shadow: 0 0 2px white}
+ }
