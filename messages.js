@@ -19,3 +19,7 @@ Array.from(hiddenCommentButtons).forEach(button => {
 })
     console.log("buttons activated!");
 }
+
+function mooncakePoint() {
+    
+}

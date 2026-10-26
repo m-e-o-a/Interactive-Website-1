@@ -8,7 +8,7 @@
 <title>Messages</title>
 </head>
 <body>
-    <h1>Messages</h1>
+    <h1 id="messageTitle">Messages</h1>
     <div class="commentMessages" id="firstComment">
      <p><strong>zibva</strong> <br> I am enjoying programing right now.</p>
      <button class="commentButtonMessages">Status</button>
@@ -17,6 +17,24 @@
      <button class="commentButtonMessages hiddenCommentButtons" style="font-weight: bold;">SEND!!!
      </button>
      <button class="commentButtonMessages">🥮</button>
+    </div>
+    <div class="commentMessages">
+     <p><strong>anonymous</strong><br>Can you guess my identity?</p>
+     <button class="commentButtonMessages">Status</button>
+     <button class="commentButtonMessages" onclick="showCommentButtons()">Say smth</button>
+     <input placeholder="I like to eat mooncakes" class="hiddenCommentButtons"></input>
+     <button class="commentButtonMessages hiddenCommentButtons" style="font-weight: bold;">SEND!!!
+     </button>
+     <button class="commentButtonMessages">🥮</button>
+    </div>
+    <div class="commentMessages">
+     <p><strong>person1</strong> <br>How to get free robux?</p>
+     <button class="commentButtonMessages">Status</button>
+     <button class="commentButtonMessages" onclick="showCommentButtons()">Say smth</button>
+     <input placeholder="I like to eat mooncakes" class="hiddenCommentButtons"></input>
+     <button class="commentButtonMessages hiddenCommentButtons" style="font-weight: bold;">SEND!!!
+     </button>
+     <button class="commentButtonMessages" onclick="mooncakePoint">🥮</button>
     </div>
     <button onclick="window.location.href='home.html'">🛖 Go to Hub</button>
 <script src="messages.js"></script>

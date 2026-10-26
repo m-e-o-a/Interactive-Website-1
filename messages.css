@@ -32,3 +32,17 @@
 .hiddenCommentButtons {
     display: none;
 }
+
+#messageTitle:hover {
+    transform: translateX(-80px);
+    transition: 1.5s;
+    animation-name: messageTitle;
+    animation-duration: 5s;
+}
+
+@keyframes messageTitle {
+    20% {font-style: oblique}
+    40% {text-shadow: 2px 2px 0 rgb(113, 20, 220)}
+    60% {font-size: 20px}
+    100% {font-size: 31px}
+}

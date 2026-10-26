@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="taskPageBackground" lang="en">
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,17 @@
 </head>
 <body>
     <h1>Tasks</h1>
+    <div class="taskCreationStepDiv">
+        <input placeholder="12/15/2026" type="date" style="margin:5px;"></input>
+        <input style="width: 500px;" placeholder="Task Name (ex: Terra Hackathon Devlog 10 Hours)"></input><br>
+        <input placeholder="Description. Ex:
+        2 Hours Monday
+        2 Hours Tuesday
+        4 Hours Wednesday
+        2 Hours Thursday
+        4 Hours Saturday"></input>
+        <input type="color" style="color: white;"><strong>Task Color</strong></input>
+    </div>
     <button onclick="window.location.href='home.html'">🛖 Go to Hub</button>
 </body>
 </html>
